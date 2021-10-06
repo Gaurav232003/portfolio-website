@@ -70,4 +70,11 @@ div > .blackback {
   h2{
   position:relative; bottom:140px;left:0px;
    }
+   .blackback {
+      height: 300px;
+      transition-duration: 0s;
+    }
+   .hid{
+     visibility: visible;
+   }
 }
