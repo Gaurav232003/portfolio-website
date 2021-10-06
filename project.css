@@ -62,8 +62,15 @@ div > .blackback {
    }
 }
 @media all and (max-width:490px) and (min-width:390px){
-  h2{
-  position:relative; bottom:140px;left:100px;
+   .blackback {
+      height: 300px;
+      transition-duration: 0s;
+    }
+    h2{
+  position:relative; bottom:140px;left:0px;
+   }
+   .hid{
+     visibility: visible;
    }
 }
 @media all and (max-width:390px){
