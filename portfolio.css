@@ -122,6 +122,11 @@ div > .blackback2 {
   margin-left: 10%;
   font-size: 200%;
   margin-right: 10%;
+  float:left;
+}
+.image {
+  
+  float: right;
 }
 #circle:hover {
   width: 150px;
