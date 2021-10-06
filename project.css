@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(248, 252, 204);
+}
+.back {
+  height: 150px;
+  width: 600px;
+  background-color: rgb(240, 255, 0);
+}
+h2 {
+  font-weight: bold;
+  font-size: 500%;
+  position: relative;
+  left: 300px;
+  top: 77px;
+}
+.blackback {
+  width: 200px;
+  height: 100px;
+  background-color: black;
+}
+.mainhead {
+  width: 600px;
+  height: 150px;
+  background-color: rgb(240, 255, 0);
+}
+span {
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: rgb(240, 255, 0);
+}
+.blackback:hover {
+  height: 300px;
+  transition-duration: 0s;
+}
+.content {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+div > .blackback {
+  width: 200px;
+  height: 100px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.hid {
+  align-items: center;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+}
+.blackback:hover > .hid {
+  visibility: visible;
+}
+@media all and (max-width:600px) and (min-width:490px){
+  h2{
+  position:relative; bottom:140px;left:200px;
+   }
+}
+@media all and (max-width:490px) and (min-width:390px){
+  h2{
+  position:relative; bottom:140px;left:100px;
+   }
+}
+@media all and (max-width:390px){
+  h2{
+  position:relative; bottom:140px;left:0px;
+   }
+}
